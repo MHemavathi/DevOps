@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<a href="index.html">Home</a>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signup Page</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        background-image: url('images/loginpage.img.jpg'); /* Correct path to your background image */
+        background-size: cover; /* Cover the entire background */
+        background-repeat: no-repeat; /* Do not repeat the background image */
+    }
+    .container {
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="submit"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-sizing: border-box;
+    }
+    input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+<link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
+</head>
+
+
+ <!-- SignUp -->
+    <div class="container">
+      <div class="Signup-form">
+        <form action="">
+          <h1>Signup</h1>
+          <p>
+            Don't have an account? SignUp or
+            <a href="login.html">Login</a>
+          </p>
+
+          <label for="username">Username</label>
+          <input type="text" placeholder="Enter Username" name="username" required />
+
+          <label for="email">Email</label>
+          <input type="text" placeholder="Enter Email" name="email" required />
+
+          <label for="phoneno">Phone No</label>
+          <input type="text" placeholder="Enter Phoneno" name="phoneno" required />
+
+          <label for="fullname">Full Name</label>
+          <input type="text" placeholder="Enter Full Name" name="fullname" required />
+
+          <label for="address">Address</label>
+          <input type="text" placeholder="Enter Address" name="address" required />
+
+          <label for="psw">Password</label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            required
+          />
+
+          <label for="psw-repeat">Repeat Password</label>
+          <input
+            type="password"
+            placeholder="Repeat Password"
+            name="psw-repeat"
+            required
+          />
+
+          <label>
+            <input
+              type="checkbox"
+              checked="checked"
+              name="remember"
+              style="margin-bottom: 15px"
+            />
+            Remember me
+          </label>
+
+          <p>
+            By creating an account you agree to our
+            <a href="#">Terms & Privacy</a>.
+          </p>
+
+          <div class="buttons">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">SignUp</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
